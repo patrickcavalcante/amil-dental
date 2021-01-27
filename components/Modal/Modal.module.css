@@ -1,0 +1,56 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #44444496;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal>div{
+    background-color: #fff;
+    max-width: 90%;
+    width: 50rem;
+    height: 50rem;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  .modal div div{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .modal .groupButtom{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .modal .groupButtom .buttonConcordo{
+    background: #00995d;
+    min-height: 5rem;
+    border: none;
+    margin: 1rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-family:700 1.4rem Archivo;
+  }
+  .modal .groupButtom .buttonNaoConcordo{
+    background: #ccc;
+    color: #fff;
+    min-height: 5rem;
+    border: none;
+    margin: 1rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-family:700 1.4rem Archivo;
+  }

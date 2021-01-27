@@ -1,0 +1,598 @@
+.header{
+    background-color: #FFF;
+  }
+  
+  .content{
+    display: flex;
+    height: 12vh;
+    max-width: 90vw;
+    padding:1rem 0;
+    margin:auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    height: 6rem;
+  }
+  .content nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .content nav ul li{
+    padding: 0 1rem;
+  }
+  .header ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1.6rem;
+    cursor: pointer;
+    border-radius: 50rem;
+    width: 16rem;
+    display: none;
+  }
+  .header ul .navButton a{
+    text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.3rem;
+      cursor: pointer;
+      background: #4f13ff;
+      color: #fff;
+      border-radius: 50rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+      width: 100%;
+  }
+  .header ul .navButton a svg{
+    margin-right: 1rem;
+  }
+  .barraGoogle{
+    background: #fff;
+    width: 100vw;
+    padding: 0 2rem;
+  }
+  .barraGoogle .groupIcon{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 5rem;
+    border: .14rem solid #c6c6c6;
+    height: 4.4rem;
+    padding: 0 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  .barraGoogle .groupIcon input{
+    border: none;
+    width: 80%;
+    background: transparent;
+  }
+  .barraGoogle .groupIcon input:hover{
+    border: none;
+    background: transparent;
+  }
+    .barraGoogle input:focus{
+    box-shadow: 0 0 0 0;
+    border: .14rem solid #c6c6c6;
+    outline: 0;
+  }
+  
+  .hero { 
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url('/assets/img/bg-top.jpg'); */
+    background-size: cover;
+    text-align: center;
+    z-index: -1;
+    padding:2rem;
+    background-position:-vmax;
+    background-repeat: no-repeat;
+  }
+  .breadcrumbs{
+    text-align: center;
+    color: #FFF;
+    font-size: 1.3rem;
+  }
+  
+  .hero h1{
+    color: #FFF;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 3rem;
+  }
+  .hero h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #FFF;
+  }
+  .hero form h2{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    width: 80vw;
+    margin: 1rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+  }
+  .hero form > svg{
+    color: #FFF;
+    margin-bottom: 1rem;
+  }
+  .hero form input{
+    width: 70vw;
+    height: 6rem;
+    padding:  01rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    border:none;
+    background-color: transparent;
+  }
+  .hero form input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  .hero form .button:focus{
+    cursor: pointer;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+  
+  
+  .hero form{
+    width: 95vw;
+    min-height:30rem;
+    height: 100%;
+    background: #4f13ff;
+    padding: 4rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 0.475em 0 #08b0fe;
+    border: .2rem solid #08b0fe;
+  }
+  .hero form span{
+    text-align: left;
+    color: #fff;
+    float: left;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero .termoCheckbox{
+    width: 2rem;
+    margin-right: 1rem;
+  }
+  .formGroup{
+    display: flex;
+    background-color: #fff;
+    border-radius: 1rem;
+    justify-content: space-between;
+  }
+  .button{
+    width: 60px;
+    float: left;
+    background: transparent;
+    color: #444;
+    height:6rem ;
+    border: none;
+  }
+  .sessionTwo .button{
+    background: #1a73e8;
+    border: solid;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    width: 50vw;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    border:.2rem solid #0761d6 ;
+    font-family:700 1.4rem Archivo;
+    webkit-box-shadow: 0 0.375em 0 #0761d6;
+    box-shadow: 0 0.375em 0 #0761d6;
+  }
+  .sessionTwo > div{
+    display: flex;
+    align-items: center;
+  }
+  .sessionOne{
+    background: #fff;
+    padding: 5rem 2rem;
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .sessionOne h1{
+    color: #444;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sessionOne img{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .sessionTwo{
+    background: #eaeaea;
+    padding: 0 2rem;
+    padding-top: 5rem;
+    text-align: center;
+  }
+  .sessionTwo div{
+    flex-direction: column;
+  }
+  
+  .sessionTwo h1{
+    color: #444;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .sessionTwo .button{
+    width: 100%;
+  }
+  .sessionTwo img{
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .sessionTree{
+    min-height: 500px;
+    background: #fff;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  .sessionTree h1{
+    color: #472ffb;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .sessionTree p{
+    text-align: left;
+  }
+  .sessionTree p{
+    color: #444;
+  }
+  .sessionTree img{
+    width:4rem;
+    text-align: center;
+  
+  }
+  .sessionTree .item figure{
+    width: 20vw;
+    height: auto;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  .sessionTree .item h2{
+    color: #444;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+  .sessionTree .item p{
+    color: #444;
+    font-weight: 400;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .sessionTree .button{
+    background: #fdb813;
+    border: solid;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    border:.2rem solid #c59c39 ;
+    font-family:700 1.4rem Archivo;
+    webkit-box-shadow: 0 0.375em 0 #c59c39;
+    box-shadow: 0 0.375em 0 #c59c39;
+  }
+  .sessionTree .butomGroup{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin: 0 auto;
+  }
+  .bannerWhatsapp{
+    background-image: url('/assets/img/banner-whatsapp.jpg');
+    background: #00995d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 2rem;
+    text-align: center;
+
+  }
+  .bannerWhatsapp >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 8rem 0;
+  }
+  .bannerWhatsapp h1{
+    color: #fff;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .bannerWhatsapp svg{
+    margin-right: 1rem;
+    color:#00995d ;
+  }
+  .bannerWhatsapp a{
+    background: #055f55;
+    background-image: url('/assets/img/banner-whatsapp.jpg');
+    display: flex;
+    margin-left: 3rem;
+    border: solid;
+    padding: 2rem;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    border:.2rem solid #00995d ;
+    font-family:700 1.4rem Archivo;
+    webkit-box-shadow: 0 0.375em 0 #00995d;
+    box-shadow: 0 0.375em 0 #00995d;
+  }
+  .footer{
+    min-height: 210px;
+    background: #444;
+    padding: 5rem 2rem;
+    padding-bottom: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+  }
+  
+  .googleSeach{
+    display: none;
+  }
+  
+  
+  @media(min-width:700px){
+    .header ul li a{
+      display: block;
+    }
+    .header .content{
+      max-width: 1100px;
+    }
+    .barraGoogle{
+      display: none;
+    }
+
+    .googleSeach{
+      display: flex;
+      align-items: center;
+      justify-content:flex-end;
+      border-radius: 5rem;
+      border: .14rem solid #c6c6c6;
+      height: 4.4rem;
+      width: 46rem;
+    }
+    .googleSeach input{
+      border: none;
+      outline: none;
+      width: 40rem;
+    }
+    .googleSeach svg{
+      margin:auto 0.9rem;
+    }
+    .hero .breadcrumbs{
+      margin-bottom: 5rem;
+    }
+    .hero{
+      min-height: 70vh;
+      text-align: left;
+    }
+    .hero h2{
+      text-align: left;
+      font-size: 1.8rem;
+      color: #FFF;
+    }
+    .hero form{
+      width: 40%;
+      text-align: center;
+      margin-left: 4rem;
+      height: 45vh;
+      border-radius: 2rem;
+      align-items: center;
+      background-color: #4f13ff;
+      box-shadow: 0 0.475em 0 #08b0fe;
+      border: .2rem solid #08b0fe;
+    }
+    .hero form > svg{
+      color: #fff;
+      display: none;
+    }
+    .hero form span{
+      color: #fff;
+    }
+    .hero form input{
+      border-right: none;
+    }
+    .hero form .button{
+      border-left: none;
+      cursor: pointer;
+      background-color: #0095da;
+      color: #fff;
+      width: 30rem;
+      border-radius: 1rem;
+    }
+    .hero .formGroup{
+      background-color: #fff;
+      border:solid 1px #ccc
+    }
+    .hero > div{
+      max-width: 1100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+    }
+    .hero h1{
+      text-align: left;
+      line-height: 1.4;
+      font-size: 4rem;
+    }
+    .hero form h2{
+      text-align: left;
+      width: 100%;
+      line-height: 3.3rem;
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin: 3rem auto;
+      color: #fff;
+    }
+    .sessionOne > div{
+      display: flex;
+      max-width: 1100px;
+      margin: 0 auto;
+      align-items: center;
+    }
+  
+    .sessionOne .group{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin-right: 20rem;
+    }
+    .sessionOne .group, .sessionOne .group h1{
+      text-align: left;
+    }
+   
+    
+    .sessionTwo > div{
+      display: flex;
+      flex-direction: row;
+      max-width: 1100px;
+      margin: 0 auto;
+      align-items: center;
+    }
+    .sessionTwo .group{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin-right: 20rem;
+      text-align: left;
+    }
+    .sessionTwo .group h1{
+      text-align: left;
+    }
+    .sessionTwo .group .button{
+      width: 100%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      margin-top: 2rem;
+    }
+  
+    .sessionTree > div{
+      display: flex;
+      justify-content: center;
+      max-width: 1100px;
+      margin: 0 auto;
+      align-items: center;
+    }
+    .sessionTree div .item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem;
+    }
+    
+    .sessionTree .item figure{
+      width: 8rem;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2rem auto;
+    }
+    .sessionTree .button{
+      width: 30rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      margin-top: 3rem;
+    }
+    .bannerWhatsapp{
+      background-image: url('/assets/img/banner-whatsapp.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 0 2rem;
+      text-align: center;
+    }
+    .bannerWhatsapp >div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin: 0 auto;
+      align-items: center;
+      padding: 8rem 0;
+    }
+    .bannerWhatsapp h1{
+      color: #fff;
+      font-size: 3.4rem;
+      text-align: left;
+      width: 50rem;
+    }
+    .bannerWhatsapp svg{
+      margin-right: 1rem;
+      color:#00995d ;
+    }
+    .bannerWhatsapp a{
+      background: #055f55;
+      display: flex;
+      margin-left: 3rem;
+      border: solid;
+      padding: 2rem;
+      margin: 0 auto;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 1rem;
+      margin-top: 1rem;
+      border:.2rem solid #00995d ;
+      font-family:700 1.4rem Archivo;
+      webkit-box-shadow: 0 0.375em 0 #00995d;
+      box-shadow: 0 0.375em 0 #00995d;
+    }
+    .footer{
+      min-height: 13vh;
+      padding-bottom: 3rem;
+    }
+   
+  }
+  

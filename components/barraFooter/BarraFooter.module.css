@@ -1,0 +1,34 @@
+.container{
+  background: #0761d6;
+  position: fixed;
+  border-radius: 4rem 4rem 0 0;
+  bottom: 0;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  color: #fff;
+  webkit-box-shadow: 0 -0.3em 0 #005bd2;
+  box-shadow: 0 -0.3em 0 #005bd2;
+}
+.container a{
+  background: transparent;
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container a small{
+  font-size: 1rem;
+  text-align: center;
+  margin-top: .5rem;
+}
+.container a svg{
+  color: #fff;
+}
+@media(min-width:700px){
+  .container{
+    display: none;
+  }
+}

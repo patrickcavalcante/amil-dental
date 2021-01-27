@@ -1,0 +1,414 @@
+.header{
+  background-color: #FFF;
+}
+
+.content{
+  display: flex;
+  height: 12vh;
+  max-width: 90vw;
+  padding:1rem 0;
+  margin:auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  height: 6rem;
+}
+.content nav ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.content nav ul li{
+  padding: 0 1rem;
+}
+.header ul li a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 1.6rem;
+  cursor: pointer;
+  border-radius: 50rem;
+  width: 16rem;
+  display: none;
+}
+.header ul .navButton a{
+  text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem;
+    cursor: pointer;
+    background: #4CAF50;
+    color: #fff;
+    border-radius: 50rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 100%;
+}
+.header ul .navButton a svg{
+  margin-right: 1rem;
+}
+
+.hero { 
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('/assets/img/bg-top.jpg');
+  background-size: cover;
+  text-align: center;
+  z-index: -1;
+  padding:2rem;
+  background-position:-vmax;
+  background-repeat: no-repeat;
+}
+
+.hero h1{
+  color: #FFF;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hero h2{
+  text-align: center;
+  font-size: 1.8rem;
+  color: #FFF;
+}
+.hero form h2{
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #fff;
+  width: 80vw;
+  margin: 1rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+}
+.hero form > svg{
+  color: #FFF;
+  margin-bottom: 1rem;
+}
+.hero form input{
+  width: 70vw;
+  height: 6rem;
+  padding:  01rem;
+  border-radius: 1rem 0rem 0rem 1rem;
+  border:none;
+}
+.hero form input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+.hero form .button:focus{
+  cursor: pointer;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+
+.hero form{
+  width: 95vw;
+  min-height:25rem;
+  background: #005acc;
+  padding: 2rem;
+  border-radius: 4px;
+  webkit-box-shadow: 0 0.475em 0 #1375e0;
+    box-shadow: 0 0.475em 0 #1375e0;
+    border: .2rem solid #1375e0;
+}
+.hero form span{
+  text-align: left;
+  color: #fff;
+  float: left;
+  font-size: 1.2rem;
+  margin-top: 1.4rem;
+}
+.formGroup{
+  display: flex;
+  justify-content: space-between;
+}
+.button{
+  width: 60px;
+  float: left;
+  background: #fff;
+  color: #444;
+  height:6rem ;
+  border: none;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+.sessionTwo .button{
+  background: #1a73e8;
+  border: solid;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  width: 50vw;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  border:.2rem solid #0761d6 ;
+  font-family:700 1.4rem Archivo;
+  webkit-box-shadow: 0 0.375em 0 #0761d6;
+  box-shadow: 0 0.375em 0 #0761d6;
+}
+.sessionTwo > div{
+  display: flex;
+  align-items: center;
+}
+.sessionOne{
+  min-height: 500px;
+  background: #fff;
+  padding: 5rem 2rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+.sessionOne h1{
+  color: #444;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sessionOne img{
+  width: 100%;
+  margin-top: 2rem;
+}
+.sessionTwo{
+  min-height: 500px;
+  background: #eaeaea;
+  padding: 0 2rem;
+  padding-top: 5rem;
+  text-align: center;
+}
+.sessionTwo div{
+  flex-direction: column;
+}
+
+.sessionTwo h1{
+  color: #444;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sessionTwo .button{
+  width: 100%;
+}
+.sessionTwo img{
+  width: 100%;
+  margin-top: 2rem;
+}
+.sessionTree{
+  min-height: 500px;
+  background: #0095da;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.sessionTree h1{
+  color: #FFF;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sessionTree p{
+  text-align: left;
+}
+.sessionTree p{
+  color: #FFF;
+}
+.sessionTree img{
+  width:4rem;
+  text-align: center;
+  margin-top: 2rem;
+
+}
+.sessionTree .item figure{
+  width: 20vw;
+  height: 12vh;
+  border-radius: 2rem;
+  margin: 0 auto;
+  margin: 2rem auto;
+}
+.sessionTree .item h2{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.sessionTree .item p{
+  color: #FFF;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.sessionTree .button{
+  background: #fdb813;
+  border: solid;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  border:.2rem solid #c59c39 ;
+  font-family:700 1.4rem Archivo;
+  webkit-box-shadow: 0 0.375em 0 #c59c39;
+  box-shadow: 0 0.375em 0 #c59c39;
+}
+.sessionTree .butomGroup{
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin: 0 auto;
+}
+.footer{
+  min-height: 170px;
+  background: #444;
+  padding: 5rem 2rem;
+  padding-bottom: 0;
+  text-align: center;
+  color: #FFF;
+  font-size: 1.2rem;
+}
+@media(min-width:700px){
+  .header ul li a{
+    display: block;
+  }
+  .header .content{
+    max-width: 1100px;
+  }
+  .hero{
+    min-height: 70vh;
+
+  }
+  .hero h2{
+    text-align: left;
+    font-size: 1.8rem;
+    color: #FFF;
+  }
+  .hero form{
+    width: 40%;
+    text-align: center;
+    margin-left: 4rem;
+    height: 40vh;
+    border-radius: 2rem;
+    align-items: center;
+    background-color: #FFF;
+    webkit-box-shadow: 0 0.475em 0 #fc0;
+    box-shadow: 0 0.475em 0 #fc0;
+    border: .2rem solid #fc0;
+  }
+  .hero form > svg{
+    color: #fc0;
+    display: none;
+  }
+  .hero form span{
+    color: #444;
+  }
+  .hero form input{
+    border: .14rem solid #c6c6c6;
+    border-right: none;
+  }
+  .hero form .button{
+    border: .14rem solid #c6c6c6;
+    border-left: none;
+    cursor: pointer;
+    background-color: #0095da;
+    color: #fff;
+    width: 30rem;
+
+  }
+  .hero > div{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero h1{
+    text-align: left;
+    line-height: 1.4;
+    font-size: 4rem;
+  }
+  .hero form h2{
+    text-align: left;
+    width: 100%;
+    line-height: 3.3rem;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 3rem auto;
+    color: #444;
+  }
+  .sessionOne > div{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .sessionOne .group{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20rem;
+  }
+  
+  .sessionTwo > div{
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .sessionTwo .group{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20rem;
+  }
+  .sessionTwo .group .button{
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .sessionTree > div{
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .sessionTree div .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sessionTree .item figure{
+    width: 8rem;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+  }
+  .sessionTree .button{
+    width: 30rem;
+    cursor: pointer;
+  }
+  .footer{
+    min-height: 13vh;
+  }
+ 
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Hapvida Saúde vendas",
+    "short_name": "Hapvida",
+    "lang": "pt-BR",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#0095da"
+  }
